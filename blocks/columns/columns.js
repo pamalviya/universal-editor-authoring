@@ -1,5 +1,4 @@
 export default function decorate(block) {
-   alert("it is working");
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
@@ -16,5 +15,5 @@ export default function decorate(block) {
       }
     });
   });
- 
+  alert("it is working");
 }
