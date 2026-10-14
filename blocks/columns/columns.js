@@ -15,5 +15,4 @@ export default function decorate(block) {
       }
     });
   });
-  alert("it is working");
 }
